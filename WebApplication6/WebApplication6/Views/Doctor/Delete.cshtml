@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+<form action="/Doctor/Delete" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <h5>Name:@Model.Name</h5>
+    <h5>Dob:@Model.Dob</h5>
+    <h5>Degree:@Model.Degree</h5>
+    <h5>Address:@Model.Address</h5>
+    <h5>Contact:@Model.Contact</h5>
+    <input type="submit" value="Delete" class="btn btn-success" />
+
+</form>
