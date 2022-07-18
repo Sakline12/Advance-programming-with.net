@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "AddNotice";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+
+<h2>AddNotice</h2>
+
+<body>
+    <h2>Notice</h2>
+    <div class="card text-center">
+        <form action="" method="post">
+            <div class="mb-3">
+                @* <label for="exampleFormControlInput1" class="form-label">Email address</label>*@
+                <input type="text" class="form-control" name="Title" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                @*<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>*@
+                <textarea class="form-control" name="Details" rows="3"></textarea>
+            </div>
+            <input type="submit" value="Register" class="btn btn-success" />
+        </form>
+    </div>
+</body>
+

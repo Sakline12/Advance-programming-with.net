@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Notice";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+
+<body>
+    <h2>Notice</h2>
+    <div class="card text-center">
+
+
+        @foreach (var pt in Model)
+        {
+
+            <div class="card-header">
+                @pt.Title
+            </div>
+            <div class="card-body">
+
+                <p class="card-text"> @pt.Details</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+                2 days ago
+            </div>
+        }
+    </div>
+</body>
+

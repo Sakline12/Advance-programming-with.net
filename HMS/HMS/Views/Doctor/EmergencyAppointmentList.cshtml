@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Doctor.cshtml";
+    ViewBag.Title = "EmergencyAppointmentList";
+}
+
+<h2>EmergencyPatient</h2>
+<h3 style="border: 1px solid skyblue" ;></h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        
+        <th>Action</th>
+    </tr>
+    @foreach (var ap in Model)
+    {
+<tr>
+    <td>@ap.Name</td>
+    <td>@ap.Age</td>
+    
+    <td>
+        <a class="btn btn-success" href="/Doctor/EmergencyPatientList/@ap.Id">View details</a>
+    </td>
+</tr>
+    }
+</table>
