@@ -1,0 +1,10 @@
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\bin\Debug\DAL.dll.config
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\bin\Debug\DAL.dll
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\bin\Debug\DAL.pdb
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\obj\Debug\DAL.dll
+C:\Users\Asus\source\repos\HMS Final\Presentation_layer\DAL\obj\Debug\DAL.pdb

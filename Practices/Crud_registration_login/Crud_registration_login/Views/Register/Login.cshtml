@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+ <h2>Login</h2>
+<form action="/Register/Login" method="post">
+ <input type="text" name="User_name" class="form-control" value="@Model.User_name" placeholder="User_name" />
+ <label class="text-danger">@Html.ValidationMessage("User_name")</label><br />
+ <input type="text" name="Password" class="form-control" value="@Model.Password" placeholder="Password" />
+ <label class="text-danger">@Html.ValidationMessage("Password")</label><br />
+ <input type="submit" value="Log In" class="btn btn-success" />
+
+ </form>

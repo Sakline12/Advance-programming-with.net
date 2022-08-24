@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<h2>Create</h2>
+<form action="/Doctor/Create" method="post">
+    <input type="text" name="Name" class="form-control" value="@Model.Name" placeholder="Name" />
+    <label class="text-danger">@Html.ValidationMessage("Name")</label><br />
+    <input type="text" name="Dob" class="form-control" value="@Model.Dob" placeholder="Dob" />
+    <label class="text-danger">@Html.ValidationMessage("Dob")</label><br />
+    <input type="text" name="Degree" class="form-control" value="@Model.Degree" placeholder="Degree" />
+    <label class="text-danger">@Html.ValidationMessage("Degree")</label><br />
+    <input type="text" name="Address" class="form-control" value="@Model.Address" placeholder="Address" />
+    <label class="text-danger">@Html.ValidationMessage("Address")</label><br />
+    <input type="text" name="Contact" class="form-control" value="@Model.Contact" placeholder="Contact" />
+    <label class="text-danger">@Html.ValidationMessage("Contact")</label><br />
+    <input type="submit" value="Create" class="btn btn-success" />
+</form>

@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table class="table table-bordered">
+    <tr><td align="center" colspan="10"><a class="btn btn-success" href="/Register/Registration">Create New</a><br /></tr>
+    <tr>
+        <th>Id</th>
+        <th>First_name</th>
+        <th>Last_name</th>
+        <th>User_name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Contact</th>
+
+    </tr>
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Id</td>
+            <td>@r.First_name</td>
+            <td>@r.Last_name</td>
+            <td>@r.User_name</td>
+            <td>@r.Email</td>
+            <td>@r.Password</td>
+            <td>@r.Contact</td>
+        </tr>
+    }
+</table>

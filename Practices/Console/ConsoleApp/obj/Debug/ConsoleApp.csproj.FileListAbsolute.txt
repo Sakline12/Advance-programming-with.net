@@ -1,0 +1,17 @@
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\BLL.dll
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\DAL.dll
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\BLL.pdb
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\DAL.pdb
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\DAL.dll.config
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\Asus\source\repos\Console\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\Asus\source\repos\Console\ConsoleApp\bin\Debug\BLL.dll.config
